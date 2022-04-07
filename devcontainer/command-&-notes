@@ -1,4 +1,4 @@
-git config --global user.email "mahesh.ksl@gmail.com"
+git config --global user.email "abc@server.com"
 
 git add -A stages all changes
 git add . stages new files and modifications, without deletions (on the current directory and its subdirectories).
