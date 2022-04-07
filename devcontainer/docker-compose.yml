@@ -1,0 +1,7 @@
+version: '3'
+services:
+  mytype:
+    build: .
+    volumes: 
+      - /home/mahesh/git/maximus-mytype:/home/maximus-mytype
+    command: tail -F anything
