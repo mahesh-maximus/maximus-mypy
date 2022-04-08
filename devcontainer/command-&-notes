@@ -1,13 +1,20 @@
 git config --global user.email "abc@server.com"
 
-git add -A stages all changes
-git add . stages new files and modifications, without deletions (on the current directory and its subdirectories).
-git add -u stages modifications and deletions, without new files
+git add -A  >stages all changes
+git add .   >stages new files and modifications, without deletions (on the current directory and its subdirectories).
+git add -u  >stages modifications and deletions, without new files
 
 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
 git submodule add https://github.com/python/cpython.git
+
+git submodule add https://github.com/python/mypy.git
+
+
 
 
 sudo docker exec -it devcontainer_mytype_1  bash
 
+sudo docker-compose rm -f
+ sudo docker system prune -a
