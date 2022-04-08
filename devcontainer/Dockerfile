@@ -4,3 +4,5 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y 
 RUN apt install build-essential -y
 RUN apt install git -y
+RUN apt install python3 -y
+RUN apt install python3-pip -y
