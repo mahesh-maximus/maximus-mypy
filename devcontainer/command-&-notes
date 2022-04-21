@@ -30,3 +30,8 @@ git clean -f -x -d # CAUTION: as above but removes ignored files like config.
 git clean -fxd :/ # CAUTION: as above, but cleans untracked and ignored files through the entire repo (without :/, the operation affects only the current directory)
 
  git push origin main
+
+
+Remove submodule
+Remove required section from .gitmodules
+git rm -r --cached cpython
