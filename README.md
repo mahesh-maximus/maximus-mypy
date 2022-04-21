@@ -1,2 +1,2 @@
-# maximus-mypy
-Maximus MyPy
+# maximus-mytype
+Maximus MyType
