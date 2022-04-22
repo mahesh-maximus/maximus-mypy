@@ -5,6 +5,8 @@ git config --global user.email "abc@server.com"
 git add -A  >stages all changes
 git add .   >stages new files and modifications, without deletions (on the current directory and its subdirectories).
 git add -u  >stages modifications and deletions, without new files
+git add -A && git commit -m "Your Message"
+git config --global alias.coa "!git add -A && git commit -m"
 
 # Create submodule
 git submodule add https://github.com/python/mypy.git
@@ -44,3 +46,6 @@ git rm -r --cached cpython
 
 # Delete Directories and al sub dirs and files by force
 $ sudo rm -rf dir-name
+
+#It will be available to all
+chmod -R 777 dir-name/
